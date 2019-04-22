@@ -14,7 +14,7 @@ namespace Factory.Solution3
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("WELCOME TO FACTORY.SOLUTION 2");
+            Console.WriteLine("WELCOME TO FACTORY.SOLUTION 3");
             Console.WriteLine("Enter the access control code, please");
 
             string accessControlCode = Console.ReadLine();
