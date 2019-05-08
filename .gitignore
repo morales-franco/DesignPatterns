@@ -12,3 +12,9 @@
 /Singleton/.vs/Singleton/v16
 /Singleton/Singleton/bin/Debug/netcoreapp2.2
 /Singleton/Singleton/obj
+/Singleton/.vs/Singleton/DesignTimeBuild
+/State/.vs/State/v16
+/State/WorkItemTracking/bin/Debug/netcoreapp2.2
+/State/WorkItemTracking/obj
+/State/WorkItemTracking.State/bin/Debug/netcoreapp2.2
+/State/WorkItemTracking.State/obj
