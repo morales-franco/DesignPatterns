@@ -81,20 +81,6 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="WorkItemTracking.State.Services.WorkItemService">
-    <Position X="15.5" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAEAAEACAAAAAAAAAIA=</HashCode>
-      <FileName>Services\WorkItemService.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="WorkItemTracking.State.Program">
-    <Position X="9" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Interface Name="WorkItemTracking.State.Entities.States.ICommand">
     <Position X="8.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>

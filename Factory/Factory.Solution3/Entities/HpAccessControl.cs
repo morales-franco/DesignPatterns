@@ -15,7 +15,6 @@ namespace Factory.Solution3.Entities
         {
             Code = "HP";
         }
-
         public List<string> GetAttendeces()
         {
             List<string> attendances = new List<string>();
@@ -25,7 +24,6 @@ namespace Factory.Solution3.Entities
 
             return attendances;
         }
-
         public List<string> GetUsers()
         {
             List<string> users = new List<string>();

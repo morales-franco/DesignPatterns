@@ -22,7 +22,6 @@ namespace Factory.Solution1
             var users = accessControl.GetUsers();
             var attendances = accessControl.GetAttendeces();
 
-
             Console.WriteLine($"Selected Device: { accessControl.Code  }");
             users.ForEach(user => Console.WriteLine(user));
             attendances.ForEach(attendance => Console.WriteLine(attendance));

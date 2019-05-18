@@ -11,9 +11,7 @@ namespace Factory.Solution2
 {
     class AccessControlFactory
     {
-
-        Dictionary<string, Type> _accessControls;
-
+        private Dictionary<string, Type> _accessControls;
         public AccessControlFactory()
         {
             LoadTypes();
