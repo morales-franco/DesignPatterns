@@ -18,3 +18,8 @@
 /State/WorkItemTracking/obj
 /State/WorkItemTracking.State/bin/Debug/netcoreapp2.2
 /State/WorkItemTracking.State/obj
+/AbstractFactory/.vs/AbstractFactory
+/AbstractFactory/AbstractFactory.AccessControl/bin/Debug/netcoreapp2.2
+/AbstractFactory/AbstractFactory.AccessControl/obj
+/AbstractFactory/AbstractFactory.Simple/bin/Debug/netcoreapp2.2
+/AbstractFactory/AbstractFactory.Simple/obj
