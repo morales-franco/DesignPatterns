@@ -23,3 +23,14 @@
 /AbstractFactory/AbstractFactory.AccessControl/obj
 /AbstractFactory/AbstractFactory.Simple/bin/Debug/netcoreapp2.2
 /AbstractFactory/AbstractFactory.Simple/obj
+/Prototype/.vs/Prototype
+/Prototype/Prototype.BasketApi/obj
+/Prototype/Prototype.BasketApi/bin/Debug/netstandard2.0
+/Prototype/Prototype.Version1/bin/Debug/netcoreapp2.2
+/Prototype/Prototype.Version1/obj
+/Prototype/Prototype.Version2/bin/Debug/netcoreapp2.2
+/Prototype/Prototype.Version2/obj
+/Prototype/Prototype.Version3/bin/Debug/netcoreapp2.2
+/Prototype/Prototype.Version3/obj
+/Prototype/Prototype.Version4/bin/Debug/netcoreapp2.2
+/Prototype/Prototype.Version4/obj
