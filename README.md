@@ -8,3 +8,4 @@
 3. State - Behaviour
 4. Abstract Factory - Creational
 5. Prototype - Creational
+6. Builder
