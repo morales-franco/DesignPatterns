@@ -13,11 +13,16 @@ namespace Builder.Solution3.Model
             this.builder = builder;
         }
 
+        //Recipe to create Developers!
         public void BuildDeveloper(string name, string surname)
         {
+            //Step 1: Init Developer            
             builder.CreateDeveloper(name, surname);
-            builder.FocusInALanguage();
+            //Step 2  
+            builder.FocusInALanguage(); 
+            //Step 3
             builder.SelectYourSide();
+            //Step 4
             builder.GetExperience();
         }
 

@@ -16,6 +16,10 @@ namespace Builder.Solution1
 
             dotnetSeniorFullstack.Print();
 
+            //var dotnetSemiSeniorBackend = new Developer("Backend", "Developer", eDevType.Backend, eTechnology.Dotnet, eSeniority.SemiSenior);
+
+            //dotnetSemiSeniorBackend.Print();
+
         }
     }
 }
