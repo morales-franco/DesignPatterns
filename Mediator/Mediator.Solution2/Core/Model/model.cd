@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Mediator.Solution2.Core.Entities.Boeing777300" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Boeing777300.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Solution2.Core.Entities.Aircraft">
+    <Position X="6.25" Y="1" Width="2.5" />
+    <AssociationLine Name="_airTrafficController" Type="Mediator.Solution2.Core.Entities.Mediator.IAirTrafficController">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.006" Y="0.102" Height="0.182" Width="1.371" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAEAgAAiAAAAAAgAAAAAAAAQAAAgAAAAAAAgA=</HashCode>
+      <FileName>Core\Entities\Aircraft.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_airTrafficController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mediator.Solution2.Core.Entities.AirbusA320Neo" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\AirbusA320Neo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Solution2.Core.Entities.Atr72" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Atr72.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Solution2.Core.Entities.Boeing747" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Boeing747.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Solution2.Core.Entities.Mediator.IronTrafficController">
+    <Position X="0.5" Y="3" Width="3" />
+    <AssociationLine Name="_aircrafts" Type="Mediator.Solution2.Core.Entities.Aircraft">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.464" Y="0.123" Height="0.182" Width="2.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAACAAAgAAAAAAACQAAAAAAAAAIAAA=</HashCode>
+      <FileName>Core\Entities\Mediator\IronTrafficController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_aircrafts" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Mediator.Solution2.Core.Entities.Mediator.IAirTrafficController">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAACAAAAAAAAAAACAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Core\Entities\Mediator\IAirTrafficController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
