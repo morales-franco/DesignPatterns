@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Adapter.Solution1.Entities.Candidate">
+    <Position X="5.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAgAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Entities\Candidate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter.Solution1.Entities.JobHunt">
+    <Position X="8" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\JobHunt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter.Solution1.Services.CodersZService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Services\CodersZService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="dataSource" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adapter.Solution1.Services.HrAnalyserService">
+    <Position X="5.75" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKCAAAAAQQA=</HashCode>
+      <FileName>Services\HrAnalyserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="candidates" />
+      <Field Name="hrDataSources" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Adapter.Solution1.Services.IHrDataSource">
+    <Position X="0.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Services\IHrDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

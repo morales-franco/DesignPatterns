@@ -52,3 +52,8 @@
 /Adapter/Adapter.Solution2/obj
 /Adapter/LinkedIn.Sdk/bin/Debug/netstandard2.0
 /Adapter/LinkedIn.Sdk/obj
+/Adapter/.vs/Adapter/DesignTimeBuild
+/Mediator/.vs/Mediator/v16
+/Mediator/Mediator.Solution1/bin/Debug/netcoreapp3.0
+/Mediator/Mediator.Solution1/obj
+/Mediator/Mediator.Solution2/obj
